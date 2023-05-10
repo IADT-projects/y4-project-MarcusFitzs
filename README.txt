@@ -1,3 +1,5 @@
+This original thesis submission was originally uploaded to my own github page before the deadline had passed.
+
 Running the application:
 	
 	Open terminal window on MovieBase/MovieBaseFrontend/client folder and run 'npm install'
