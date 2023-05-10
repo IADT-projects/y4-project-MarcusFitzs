@@ -1,3 +1,5 @@
+This updated thesis submission contains the changes I made between the time of the code submission deadline and the application presentation. It mostly includes design changes, and the removal of some broken functionality.
+
 Running the application:
 	
 	Open terminal window on MovieBase/MovieBaseFrontend/client folder and run 'npm install'
