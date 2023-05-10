@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* ---Body--- */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #1E2C48;
+    background-color: #F4F7F6;
+}
+
+/* ---Type--- */
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.movieTitle {
+    margin-bottom: 0;
+    /* background-color: rgb(36, 146, 32); */
+}
+
+.movieEssentials {
+    /* background-color: blue; */
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #746b71;
+}
+
+.moreRec {
+    text-align: center;
+}
+
+.horiz {
+    display:inline; 
+    /* vertical-align:bottom; */
+}
+
+h2.horiz {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.genrePara {
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+
+
+/* ---Cards--- */
+.cardText {
+    /* margin-bottom: -25px;
+    margin-top: -15px;
+    margin-left: 10px; */
+    margin: -15px 10px -25px 10px;
+}
+
+#movieCard {
+    margin-bottom: 20px;
+}
+
+
+
+/* ---Inputs--- */
+.pageNos {
+    margin: auto;
+    /* background-color: aliceblue; */
+    width: 342px;
+    margin-bottom: 20px;
+}
+
+.filterInputs {
+    /* margin-bottom: 20px; */
+    max-width: 963px;
+    margin: auto;
+}
+
+/* ---Other--- */
+.poster {
+    /* margin-top: 10px; */
+    margin-right: 3px;
+}
+
+.youTube {
+    border: 0;
+}
+
+.infoDiv {
+    max-width: 984px;
+}
+
+.movieCol {
+    width: 442px;
+    margin-right: 50px;
+    float: left;
+    /* background-color: red; */
+}
+
+.castHr {
+    margin-top: 455px;
+}
+
+.flexHr {
+    width: 0;
+}
+
+/* .new1 {
+    margin-top: 50px;
+} */
+
+.castCol {
+    column-count: 2;
+    /* background-color: red; */
+}
+
+.loginForm {
+    width: 500px;
+    margin: auto;
+}
+
+.profilePage{
+    /* background-color: #1E2C48; */
+    width: 50%;
+    float: left;
+}
+
+@media only screen and (max-width: 730px) {
+    .filterInputs {
+        max-width: 500px;
+    }
+}
+
+/* @media only screen and (max-width: 1067px) {
+    .youTube {
+        margin-left: 0px;
+    }
+} */
+
+@media only screen and (max-width: 1064px) {
+    .infoDiv {
+        max-width: 711px;
+    }
+
+    .movieCol {
+        width: 711px;
+        /* background-color: red; */
+    }
+
+    .flexHr {
+        width: 711px;
+        margin-top: 425px
+    }
+
+    /* .castHr {
+        margin-top: 450px;
+    } */
+}
